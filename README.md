@@ -1,24 +1,16 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 import java.util.Scanner;
-
 public class GuessTheNumber {
+    
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
+        
         int numberToGuess = (int) (Math.random() * 100) + 1;
+        
         int numberOfTries = 0;
+        
         int guess = 0;
+        
         boolean win = false;
 
         System.out.println("Welcome to the Guess the Number Game!");
